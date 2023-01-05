@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "roboto";
+    font-weight: 400;
+}
+
+/* Header section */
+
+.header{
+    background-color: #5d6770;
+    background-image: url('./images/donation13.jpg');
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.hero-h1{
+    font-size: 32px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
+
+.hero-para{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.primary-btn{
+    padding: 10px 20px;
+    font-size: 22px;
+    background-color: #f76707;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Donate Today Section */
+
+.donate-today{
+    padding: 100px 200px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.donate-today-div{
+    max-width: 960px;
+}
+
+.donate-amount-flex{
+    margin: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.donate-today-h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.donate-today-p{
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.donate-amount{
+    background-color: #f1f3f5;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 25px 15px;
+    border-radius: 5px;
+}
+
+.donate-amount:nth-child(2){
+    color: #f03e3e;
+    border: 2px solid #f03e3e;
+    background-color: #ffe3e3;
+}
+
+.other-amount{
+    color: #ced4da;
+    margin-bottom: 5px;
+}
+
+.donate-today-btn{
+    margin-top: 15px;
+    background-color: #f03e3e;
+    border: none;
+    cursor: pointer;
+}
+
+/* Donate Plan Section */
+
+
+.donate-plan-h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.donate-plan-p{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #757575;
+}
+
+.donate-plan-flex{
+    display: flex;
+    padding: 100px 200px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.donate-plan-flex h1{
+    margin: 20px 0px;
+}
+
+.donate-plan-bg{
+    padding: 50px 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.donate-plan-bg p{
+    color: #757575;
+}
+
+.donate-plan-bg:nth-child(1){
+    background-color: #f1f3f5;
+}
+
+.donate-plan-bg:nth-child(2){
+    background-color: #ffe3e3;
+}
+
+.donate-plan-bg:nth-child(3){
+    background-color: #fff3bf;
+}
+
