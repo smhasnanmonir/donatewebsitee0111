@@ -36,6 +36,7 @@
     background-color: #f76707;
     color: white;
     border-radius: 5px;
+    border: none;
 }
 
 /* Donate Today Section */
@@ -86,6 +87,8 @@
 .other-amount{
     color: #ced4da;
     margin-bottom: 5px;
+    border: none;
+    font-size: 12px;
 }
 
 .donate-today-btn{
@@ -143,3 +146,43 @@
     background-color: #fff3bf;
 }
 
+/* Galary Section Starts */
+
+.galary img{
+    width: 475px;
+    height: 356px;
+}
+
+
+.galary-text {
+    padding: 30px;
+}
+
+.galary-text h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.galary-text p{
+    color: #757575;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.galary-flex{
+    display: flex;
+    gap: 20px;
+    padding: 20px 175px;
+}
+
+.galary-btn{
+    background-color: #f03e3e;
+}
+
+.galary-margin{
+    margin-left: 25px;
+}
+
+.galary-gap{
+    gap: 155px;
+}
