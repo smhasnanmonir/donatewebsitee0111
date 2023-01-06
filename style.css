@@ -20,20 +20,23 @@
 }
 
 .hero-h1{
-    font-size: 32px;
-    font-weight: 600px;
+    font-size: 60px;
+    font-weight: 800px;
     margin-bottom: 15px;
 }
 
 .hero-para{
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .primary-btn{
     padding: 10px 20px;
     font-size: 22px;
-    background-color: #f76707;
+    background-color: #fa5252;
     color: white;
     border-radius: 5px;
     border: none;
