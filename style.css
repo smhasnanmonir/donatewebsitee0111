@@ -109,19 +109,20 @@
 
 .donate-plan-p{
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     color: #757575;
 }
 
 .donate-plan-flex{
     display: flex;
-    padding: 100px 200px;
+    padding: 50px 200px;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 25px;
 }
 
 .donate-plan-flex h1{
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .donate-plan-bg{
@@ -133,6 +134,7 @@
 .donate-plan-bg p{
     color: #757575;
 }
+
 
 .donate-plan-bg:nth-child(1){
     background-color: #f1f3f5;
@@ -146,6 +148,10 @@
     background-color: #fff3bf;
 }
 
+.donate-img{
+    border-radius: 7px;
+}
+
 /* Galary Section Starts */
 
 .galary img{
@@ -153,6 +159,9 @@
     height: 356px;
 }
 
+.galaxy-img img{
+    border-radius: 7px;
+}
 
 .galary-text {
     padding: 30px;
