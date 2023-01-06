@@ -192,7 +192,7 @@
 .get-update{
     padding: 100px 200px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .get-update h1{
@@ -229,3 +229,25 @@
     width: 120px;
 }
 
+/* Footer Section */
+
+.footer-section{
+    padding: 50px 100px;
+    background-color: black;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+}
+
+.footer h1{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Lobster', cursive;
+    color: #fa5252;
+}
+
+.footer p{
+    font-size: 12px;
+}
