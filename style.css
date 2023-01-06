@@ -45,7 +45,7 @@
 /* Donate Today Section */
 
 .donate-today{
-    padding: 100px 200px;
+    padding: 50px 200px;
     display: grid;
     place-items: center;
     text-align: center;
@@ -64,12 +64,13 @@
 }
 
 .donate-today-h1{
+    margin-top: 30px;
     font-size: 48px;
     margin-bottom: 15px;
 }
 
 .donate-today-p{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #757575;
 }
 
@@ -79,6 +80,7 @@
     font-weight: bolder;
     padding: 25px 15px;
     border-radius: 5px;
+    margin-bottom: 45px;
 }
 
 .donate-amount:nth-child(2){
