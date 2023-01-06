@@ -186,3 +186,46 @@
 .galary-gap{
     gap: 155px;
 }
+
+/* Get update section */
+
+.get-update{
+    padding: 100px 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.get-update h1{
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.get-update p{
+    margin-bottom: 35px;
+    color:#757575;
+}
+
+.latter{
+    margin: 0px auto;
+    background-color: #ffe8cc;
+    padding: 75px 50px;
+    width: 450px;
+}
+
+.input-email,.input-button{
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-email{
+    background-color: #ced4da;
+    width: 175px;
+}
+
+.input-button{
+    background-color: #ff6b6b;
+    width: 120px;
+}
+
