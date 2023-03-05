@@ -4,10 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500;700&family=Ubuntu:wght@500&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500;700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500;700&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500;700&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+
     <title>Donate to Save Life</title>
   </head>
   <body>
@@ -19,10 +37,95 @@
           More In Need
         </h1>
         <p class="hero-para">
-          Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Ex
+          Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. Ex
           consequuntur architecto vero ratione
         </p>
-        <button class="primary-btn">Donate Now</button>
+        <!-- Modal -->
+        <!-- Button trigger modal -->
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1
+                  class="modal-title fs-5 text-primary"
+                  id="exampleModalLabel"
+                >
+                  Sign up form
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="email-div mb-4">
+                  <input
+                    class="d-inline p-2 rounded-2 w-100"
+                    type="email"
+                    name=""
+                    id="email-input"
+                    placeholder="Enter Email Here"
+                  />
+                </div>
+                <div class="email-div mb-4">
+                  <input
+                    class="d-inline p-2 rounded-2 w-100"
+                    type="email"
+                    name=""
+                    id="confrim-email-input"
+                    placeholder="Enter Email agin"
+                  />
+                </div>
+                <div class="pass-div">
+                  <input
+                    class="d-inline p-2 rounded-2 w-100"
+                    type="password"
+                    name=""
+                    id="pass-input"
+                    placeholder="Enter password Here"
+                  />
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-dismiss="modal"
+                >
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="primary-btn"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Signup and Donate Now
+        </button>
+        <a href="login.html">
+          <button class="primary-btn">Login and Donate Now</button>
+        </a>
       </header>
     </section>
 
@@ -30,96 +133,158 @@
 
     <!-- Donate Today Section Starts-->
     <section class="donate-today">
-        <div class="donate-today-div">
-      <h1 class="donate-today-h1">Donate Today</h1>
-      <p class="donate-today-p">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Odit voluptate
-        excepturi odio voluptatem molestias dolorem totam magnam sit.
-      </p>
-      <div class="donate-amount-flex">
-        <p class="donate-amount">100tk</p>
-        <p class="donate-amount 2nd">200tk</p>
-        <p class="donate-amount">500tk</p>
-        <p class="donate-amount">1000tk</p>
-        <p class="donate-amount">5000tk</p>
-    </div>
-    <p class="other-amount">Other Amount(Taka)</p>
-    <hr>
-    <button class="primary-btn donate-today-btn">Donate Now</button>
+      <div class="donate-today-div">
+        <h1 class="donate-today-h1">Donate Today</h1>
+        <p class="donate-today-p">
+          Your donation can be helpful<br />
+          Your money can save a life by food,medicine,health care. You can trust
+          us.
+        </p>
+        <div class="donate-amount-flex">
+          <p class="donate-amount">100tk</p>
+          <p class="donate-amount 2nd">200tk</p>
+          <p class="donate-amount">500tk</p>
+          <p class="donate-amount">1000tk</p>
+          <p class="donate-amount">5000tk</p>
         </div>
+        <p class="other-amount">Other Amount(Taka)</p>
+        <hr />
+        <button
+          class="primary-btn donate-today-btn"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Signup and Donate Now
+        </button>
+        <a href="login.html">
+          <button class="primary-btn">Login and Donate Now</button>
+        </a>
+      </div>
     </section>
     <!-- Donate Today Section Ends -->
 
     <!-- Our Donate Plan Section Starts -->
     <section class="donate-plan">
-        <h1 class="donate-plan-h1">Our Donate Plan</h1>
-            <p class="donate-plan-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Voluptatibus earum excepturi quos corrupti inventore tenetur voluptates deleniti minus beatae quam.</p>
-            <div class="donate-plan-flex">
-            <div class="donate-plan-bg">
-                <img src="./icons/food.png" alt="">
-                <h1>Food for a family</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur repellat vel magni ratione odit natus similique accusantium, blanditiis dolore?</p>
-            </div>
-            <div class="donate-plan-bg">
-                <img src="./icons/shelter.png" alt="">
-                <h1>Shelter for a family</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vero porro blanditiis beatae suscipit nulla nesciunt pariatur repellendus perferendis delectus.</p>
-            </div>
-            <div class="donate-plan-bg">
-                <img src="./icons/Frame-1.png" alt="">
-                <h1>Education for Child</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit alias soluta inventore delectus necessitatibus. Aspernatur facilis libero explicabo obcaecati quidem?</p>
-            </div>
+      <h1 class="donate-plan-h1">Our Donate Plan</h1>
+      <p class="donate-plan-p">
+        We have introduced several donation plans for you.
+      </p>
+      <div class="donate-plan-flex">
+        <div class="donate-plan-bg">
+          <img src="./icons/food.png" alt="" />
+          <h1>Food for a family</h1>
+          <p>
+            Your donation can provide the daily food a family might need in
+            somewhere. We make sure
+          </p>
         </div>
+        <div class="donate-plan-bg">
+          <img src="./icons/shelter.png" alt="" />
+          <h1>Shelter for a family</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vero
+            porro blanditiis beatae suscipit nulla nesciunt pariatur repellendus
+            perferendis delectus.
+          </p>
+        </div>
+        <div class="donate-plan-bg">
+          <img src="./icons/Frame-1.png" alt="" />
+          <h1>Education for Child</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit alias soluta inventore delectus necessitatibus.
+            Aspernatur facilis libero explicabo obcaecati quidem?
+          </p>
+        </div>
+      </div>
     </section>
     <!-- Our Donate Plan Section Ends -->
 
     <!-- Galary Section Starts -->
     <section class="galary">
-        <div class="galary-flex">
-          <div class="galary-text">
-        <h1>Their life depends on<br> your donation</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Provident atque possimus temporibus doloremque modi eveniet qui nostrum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Voluptatem delectus magni eius sapiente a. Ut tempora aperiam suscipit tenetur culpa!</p>
-        <button class="primary-btn galary-btn">How to Contribute?</button></div>
-        <div class="galaxy-img"><img src="./images/donation10.jpg" alt=""></div>
+      <div class="galary-flex">
+        <div class="galary-text">
+          <h1>
+            Their life depends on<br />
+            your donation
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Provident atque possimus temporibus doloremque modi eveniet qui
+            nostrum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+            Voluptatem delectus magni eius sapiente a. Ut tempora aperiam
+            suscipit tenetur culpa!
+          </p>
+          <button class="primary-btn galary-btn">How to Contribute?</button>
+        </div>
+        <div class="galaxy-img">
+          <img src="./images/donation10.jpg" alt="" />
+        </div>
       </div>
-        <div class="galary-flex galary-margin galary-gap">
-          <div class="galaxy-img"><img src="./images/donation7.jpg" alt=""></div>
-          <div class="galary-text">
-        <h1>Their life depends on<br> your donation</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Provident atque possimus temporibus doloremque modi eveniet qui nostrum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Voluptatem delectus magni eius sapiente a. Ut tempora aperiam suscipit tenetur culpa!</p>
-        <button class="primary-btn galary-btn">How to Contribute?</button></div>
+      <div class="galary-flex galary-margin galary-gap">
+        <div class="galaxy-img">
+          <img src="./images/donation7.jpg" alt="" />
+        </div>
+        <div class="galary-text">
+          <h1>
+            Their life depends on<br />
+            your donation
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Provident atque possimus temporibus doloremque modi eveniet qui
+            nostrum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+            Voluptatem delectus magni eius sapiente a. Ut tempora aperiam
+            suscipit tenetur culpa!
+          </p>
+          <button class="primary-btn galary-btn">How to Contribute?</button>
+        </div>
       </div>
     </section>
     <!-- Galary Section Ends -->
 
     <!-- Get update section Starts -->
-      <section class="get-update">
+    <section class="get-update">
       <div>
         <h1>Get Our Updates</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto eum cumque tenetur.</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          iusto eum cumque tenetur.
+        </p>
         <div class="latter">
           <div class="email">
-            <input type="email" name="" id="" class="input-email" placeholder="Email">
+            <input
+              type="email"
+              name=""
+              id=""
+              class="input-email"
+              placeholder="Email"
+            />
             <button type="submit" class="input-button">Subscribe</button>
           </div>
         </div>
       </div>
-      </section>
+    </section>
     <!-- Get update section Ends -->
 
-
     <!-- Footer Section Starts -->
-      <section class="footer-section">
-        <footer class="footer">
-          <h1>Be Humble</h1>
-          <p>I'm gonna do it</p>
-        </footer>
-      </section>
+    <section class="footer-section">
+      <footer class="footer">
+        <h1>Be Humble</h1>
+        <p>I'm gonna do it</p>
+      </footer>
+    </section>
     <!-- Footer Section Ends -->
-
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
